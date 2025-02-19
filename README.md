@@ -17,9 +17,10 @@ Sistema para registrar informações médicas de pacientes e exames realizados, 
 
 ## Estrutura do Projeto
 
-O projeto possui duas versões:
+O projeto possui três versões:
 
 - **`adonis`**: Implementação com **AdonisJS**.
+- **`adonis`**: Implementação com **AdonisJs** utilizando layer architecture.
 - **`express`**: Implementação com **ExpressJS**.
 
 ## Tecnologias
@@ -28,4 +29,3 @@ O projeto possui duas versões:
 - **Banco de Dados**: MySQL
 - **Zod**: Validação de dados
 - **Prisma**: ORM para gerenciar o banco de dados.
-
