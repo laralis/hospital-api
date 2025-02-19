@@ -12,7 +12,7 @@ export default class DoctorsController {
     const data = await request.validateUsing(doctorValidator)
     const doctor = await Doctor.create(data)
     return response.created(doctor)
-  }
+  } 
 
   async show({ params }: HttpContext) {
     const doctor = await Doctor.findOrFail(params.id)
